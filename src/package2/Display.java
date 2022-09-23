@@ -1,2 +1,5 @@
-package package2;public interface Display {
+package package2;
+@FunctionalInterface
+public interface Display {
+    void print () ;
 }
